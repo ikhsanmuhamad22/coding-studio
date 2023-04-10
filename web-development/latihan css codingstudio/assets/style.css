@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#landingPage {
+    background-image: url('./pictures/background\ image.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#landingPage>h1 {
+    color: white;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+#nav {
+    padding: 10px 30px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.userIcons img {
+    margin-left: 5em;
+    width: 40px;
+    display: block;
+    float: left;
+}
+
+#nav>li {
+    list-style: none;
+}
+
+#nav>ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    list-style: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+#nav>ul>li {
+    padding: 0px 20px;
+}
+
+#nav>ul>li:hover {
+    background-color: aquamarine;
+}
+
+#about-me {
+    padding: 2em 0px;
+    display: flex;
+    height: 80vh;
+}
+
+#about-me>div>p {
+    padding-top: 2em;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+#introduction,
+#education,
+#working {
+    text-align: center;
+    margin: auto;
+    max-width: 24em;
+}
+
+.icons {
+    width: 50px;
+}
+
+#portfolio {
+    height: 80vh;
+    text-align: center;
+}
+
+#portfolio>h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#container>img {
+    width: 400px;
+}
+
+#contact-me {
+    text-align: center;
+    display: inline;
+    padding-top: 50px;
+}
+
+#contact-me>h1 {
+    flex-basis: 100%;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+#form {
+    display: inline;
+    width: 50%;
+}
+
+#form>.form {
+    display: block;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+}
+
+.form>label {
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.form>input {
+    display: block;
+    width: 100%;
+    height: 1.5em;
+    font-size: 1em;
+}
+
+
+.form>textarea {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    padding: 2em;
+    margin-top: 3em;
+    background-color: black;
+}
+
+footer>h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
