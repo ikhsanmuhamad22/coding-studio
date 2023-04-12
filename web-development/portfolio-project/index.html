@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="header" class="navbar navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container m-auto">
+            <a class="navbar-brand fs-4 fw-semibold" href="#">Ikhsan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-xl-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="container">
+        <div class="row">
+            <div class="col-8 d-flex flex-column justify-content-center">
+                <h2 class="fw-semibold">Hi, im</h2>
+                <h1 class="fw-bold">Ikhsan Muhamad</h1>
+                <p>i'am fullstack developer</p>
+                <a href="" class="button text-decoration-none text-dark">Resume</a>
+            </div>
+            <div class="col-4">
+                <img src="images/potrait.png" alt="">
+            </div>
+        </div>
+        <div class="slider d-flex flex-column align-items-center">
+            <a href="#about">More Info</a>
+            <img class="arrow" src="images/arrow.svg" alt="arrow.png">
+        </div>
+    </section>
+    <section id="about" class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ut alias, doloremque, nesciunt iusto
+            laboriosam est sunt aperiam necessitatibus provident eius incidunt error non. Esse id consectetur,
+            voluptates ducimus molestias mollitia quisquam blanditiis architecto deleniti atque, a possimus minima ipsum
+            exercitationem! Laudantium, expedita? Nostrum accusantium ipsam nobis, reprehenderit dolorum ullam!</p>
+        <div class="about-items">
+            <div class="about-item-exp">
+                <div class="about-subitems d-flex justify-content-between ">
+                    <div class="about-subitems-header">
+                        <h5 class="fw-bold">Fullstack developer</h5>
+                        <p>at google </p>
+                    </div>
+                    <button class="button" onclick="toogleDetail(event)">More info</button>
+                </div>
+                <div class="about-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus tenetur blanditiis harum
+                        vero
+                        eum placeat ab incidunt reiciendis reprehenderit officiis eveniet corporis commodi illo, nostrum
+                        fugiat odit beatae rem!</p>
+                </div>
+            </div>
+            <div class="about-item-exp">
+                <div class="about-subitems d-flex justify-content-between ">
+                    <div class="about-subitems-header">
+                        <h5 class="fw-bold">Fullstack developer</h5>
+                        <p>at google </p>
+                    </div>
+                    <button class="button" onclick="toogleDetail(event)">More info</button>
+                </div>
+                <div class="about-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus tenetur blanditiis harum
+                        vero
+                        eum placeat ab incidunt reiciendis reprehenderit officiis eveniet corporis commodi illo, nostrum
+                        fugiat odit beatae rem!</p>
+                </div>
+            </div>
+            <div class="about-item-exp">
+                <div class="about-subitems d-flex justify-content-between ">
+                    <div class="about-subitems-header">
+                        <h5 class="fw-bold">Fullstack developer</h5>
+                        <p>at google </p>
+                    </div>
+                    <button class="button" onclick="toogleDetail(event)">More info</button>
+                </div>
+                <div class="about-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus tenetur blanditiis harum
+                        vero
+                        eum placeat ab incidunt reiciendis reprehenderit officiis eveniet corporis commodi illo, nostrum
+                        fugiat odit beatae rem!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="container">
+        <div class="row gap-3">
+            <div class="work-desc col d-flex align-items-center">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nemo cumque ad qui pariatur
+                    asperiores, quae itaque cum corporis animi hic possimus vero enim quaerat omnis numquam dolorem
+                    voluptates dolores error molestias blanditiis neque consequatur quasi. Exercitationem quaerat
+                    adipisci quis, eligendi aliquam pariatur delectus necessitatibus inventore, vero quia dolorum
+                    veritatis.</p>
+            </div>
+            <div class="work-img col gap-3">
+                <div class="img-1 work-img-items">
+                    <img src="images/work-1.png" alt="">
+                </div>
+                <div class="img-2 work-img-items">
+                    <img src="images/work-2.png" alt="">
+                </div>
+                <div class="img-3 work-img-items">
+                    <img src="images/work-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <div class="row gap-5 ">
+            <div class="col border border-3 border-black p-5">
+                <form onsubmit="onFormSubmit(event)">
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputSubject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="inputSubject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputMessage" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="inputMessage">
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="submit" class="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora maxime suscipit illum nostrum
+                    labore nesciunt, corrupti provident inventore distinctio veniam cum iste iure aperiam esse aut porro
+                    ipsa neque! Rerum repudiandae totam consectetur, et incidunt aliquid voluptate iure consequatur
+                    voluptas minus illum pariatur, distinctio eaque laboriosam aut officia? Officia!</p>
+                <div class="logos d-flex justify-content-around mt-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="images/Facebook.svg" alt="">
+                        <p>ikhsan Muhamad</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="images/Instagram.svg" alt="">
+                        <p>ikhsnmhmd_01</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="images/Twitter.svg" alt="">
+                        <p>Arthur_IX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
