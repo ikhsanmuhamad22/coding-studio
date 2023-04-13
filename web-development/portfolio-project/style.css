@@ -29,6 +29,10 @@ section::before {
     font-size: 64px;
 }
 
+#home img {
+    border-radius: 50%;
+}
+
 .button {
     width: 100px;
     height: 40px;
@@ -147,4 +151,79 @@ section::before {
 
 #contact::before {
     content: 'contact';
+}
+
+#contact .logos p {
+    margin: 0px;
+}
+
+@media (max-width: 991px) {
+    #home {
+        padding-top: 0px;
+    }
+
+    #home img {
+        width: 70%;
+    }
+
+    #home a {
+        margin-top: 15px;
+    }
+
+    #home .slider {
+        margin-top: 40px;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+
+    section {
+        padding-bottom: 64px;
+    }
+
+    section::before {
+        content: '';
+        font-size: 32px;
+        top: 10px;
+        left: 5px;
+    }
+
+    #home {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 36px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    #about .about-subitems {
+        margin-top: 16px;
+    }
+
+    #contact .form-container {
+        display: flex;
+        align-items: center;
+    }
+
+    #contact .form {
+        max-width: 90%;
+    }
+
+    #contact img {
+        max-width: 35px;
+    }
 }
